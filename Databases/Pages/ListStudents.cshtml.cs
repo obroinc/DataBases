@@ -27,9 +27,6 @@ namespace Databases.Pages
 
 
 
-        public void OnGet()
-        {
-
-        }
+        
     }
 }
