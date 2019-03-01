@@ -1,0 +1,32 @@
+﻿@page "{Message?}"
+@model Databases.Pages.RouteDataParametersModel
+@{
+    ViewData["Title"] = "RouteDataParameters";
+}
+
+<h2>RouteDataParameters</h2>
+
+@*
+@if (@RouteData.Values["message"] != null)
+{
+
+@RouteData.Values["message"]
+}
+else
+{
+    <h1>No Message</h1>
+}*@
+
+@*
+@if (@Model.Mess != null)
+{
+<p>@Model.Mess</p>
+}
+else
+{
+    <p>No message again</p>
+}
+*@
+
+<p>@Model.Message</p>
+
